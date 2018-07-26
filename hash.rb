@@ -16,3 +16,5 @@ order.each do |customer, order |
 count +=
 
 end
+
+puts order
