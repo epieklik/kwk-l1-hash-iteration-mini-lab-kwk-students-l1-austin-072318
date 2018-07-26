@@ -7,8 +7,10 @@ name = gets.chomp!
 puts "What would you like to order"
 new = gets.chomp!
 
-
-
 order[name] = new 
+
+
+order.each do |customer, order |
+  
 
 puts order 
