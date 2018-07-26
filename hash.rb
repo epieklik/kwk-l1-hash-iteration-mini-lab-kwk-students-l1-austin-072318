@@ -11,6 +11,6 @@ order[name] = new
 
 
 order.each do |customer, order |
-  puts "Person one ordered  #{order[0]}, person two ordred #{order[1]}, #{order[0]}"
+  puts "Person one ordered  #{order[0]}, person two ordred #{order[1]}, person three ordered #{order[2]}"
 
 puts order 
